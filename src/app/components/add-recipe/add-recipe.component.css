@@ -1,0 +1,16 @@
+/* Add styles for add recipe component */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea, select {
+  padding: 10px;
+  width: 100%;
+}
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}

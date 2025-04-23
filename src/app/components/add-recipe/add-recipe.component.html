@@ -1,0 +1,13 @@
+<div>
+  <h2>Add New Recipe</h2>
+  <form (ngSubmit)="onSubmit()">
+    <input type="text" [(ngModel)]="newRecipe.name" placeholder="Recipe Name" name="name" required>
+    <textarea [(ngModel)]="newRecipe.description" placeholder="Recipe Description" name="description" required></textarea>
+    <select [(ngModel)]="newRecipe.category" name="category" required>
+      <option value="pellet-smoker">Pellet Smoker</option>
+      <option value="gas-grill">Gas Grill</option>
+      <option value="wood-fired-grill">Wood-Fired Grill</option>
+    </select>
+    <button type="submit">Add Recipe</button>
+  </form>
+</div>
