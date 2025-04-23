@@ -32,5 +32,8 @@
       }
     }
   },
-  "defaultProject": "cooking-website"
+  "defaultProject": "cooking-website",
+  "cli": {
+    "analytics": "07a77fd0-4366-413f-8728-247bad7b8e7e"
+  }
 }
